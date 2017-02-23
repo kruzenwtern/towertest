@@ -1,0 +1,46 @@
+   - name: Redhat
+     yum: name={{ item }} state=latest
+     when: ansible_os_family == "RedHat"
+     with_items:
+       - mc
+       - zip
+       - unzip
+       - curl
+       - wget
+       - net-tools
+       - telnet
+       - bind-utils
+       - iproute
+       - xauth
+       - strace
+       - gdb
+       - sysstat
+       - tcpdump
+       - nmap
+       - hping3
+       - fping
+       - traceroute
+       - lynx
+       - iotop
+       - sshfs
+       - '@Development tools'
+       - htop
+       - links
+       - iftop
+       - dnstop
+       - atop
+       - screen
+       - tmux
+       - iptraf-ng
+       - git
+       - subversion
+       - samba-client
+       - openldap-clients
+       - dos2unix
+       - nc
+       - pv
+       - zabbix20-agent.x86_64
+       - sudo
+       - libselinux-python
+     tags:
+        - redhat

@@ -1,0 +1,45 @@
+   - name: Debian
+     apt: name={{ item }} state=latest
+     when: ansible_os_family == "Debian"
+     with_items:
+        - mc
+        - zip
+        - unzip
+        - curl
+        - wget
+        - net-tools
+        - telnet
+        - dnsutils
+        - iproute2
+        - xauth
+        - strace
+        - gdb
+        - sysstat
+        - tcpdump
+        - nmap
+        - hping3
+        - fping
+        - iputils-tracepath
+        - lynx
+        - iotop
+        - sshfs
+        - build-essential
+        - htop
+        - links
+        - iftop
+        - dnstop
+        - atop
+        - screen
+        - tmux
+        - iptraf-ng
+        - git
+        - subversion
+        - smbclient
+        - ldap-utils
+        - dos2unix
+        - netcat
+        - pv
+        - zabbix-agent
+        - sudo
+     tags:
+        -debian

@@ -1,0 +1,48 @@
+---
+
+  admins:
+    # Smolin Eugeny
+    #"Smolin":
+    #   user_name: "smolin"
+    #   ssh_pub_key: "lanit_template_smolin_rsa2048.pub"
+
+    # Krylov Alexey
+    "Krylov":
+       user_name: "kruz"
+       ssh_pub_key: "lanit_template_kruz_rsa2048.pub"
+
+    # Dudin Pavel
+    #"Dudin":
+    #   user_name: "mcmanus"
+    #   ssh_pub_key: "lanit_template_mcmanus_rsa2048.pub"
+
+    # Safronov Pavel
+    #"Safronov":
+    #   user_name: "safronov"
+    #   ssh_pub_key: "lanit_template_safronov_rsa2048.pub"
+
+    # Anikeev Dmitriy
+    #"Anikeev":
+    #   user_name: "anikeev"
+    #   ssh_pub_key: "lanit_template_anikeev_rsa2048.pub"
+    # Tikhonov Alexey
+    #"Tikhonov":
+    #   user_name: "tikhonov"
+    #   ssh_pub_key: "lanit_template_tikhonov_rsa2048.pub"
+    # Savchenko
+  #  "Savchenko":
+  #     user_name: "savchenko"
+  #     ssh_pub_key: "lanit_template_roman_rsa2048.pub"
+    # Lahtadir
+    #"Lahtadir":
+    #   user_name: "alahtadir"
+    #   ssh_pub_key: "lanit_template_alahtadir_rsa2048.pub"
+    #"Tollu":
+    #   user_name: "tollu"
+    #   ssh_pub_key: "lanit_template_tollu_rsa2048.pub"
+    #"Minaeva":
+    #   user_name: "minaeva"
+    #   ssh_pub_key: "lanit_template_minaeva_rsa2048.pub"
+     #"Devops":
+      #  user_name: "devops"
+      #  ssh_pub_key: "lanit_template_devops_rsa2048.pub"

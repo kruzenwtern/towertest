@@ -1,0 +1,16 @@
+    - name: Include variables
+      include_vars: ../variables/users.yml
+
+    - name: Add admins users
+      user: name={{ item.value.user_name }} shell=/bin/bash comment={{ item.key }}
+      with_dict: "{{ admins }}"
+
+
+    - name: Add ssh keys for admins
+      authorized_key: user={{ item.value.user_name }} key="{{ lookup('file', '../files/ssh_keys/' + item.value.ssh_pub_key) }}"
+      with_dict: "{{ admins }}"
+
+
+    - name: Add admins users to sudoers
+      lineinfile: dest=/etc/sudoers state=present line="{{ item.value.user_name }} ALL=(ALL:ALL) NOPASSWD:ALL"
+      with_dict: "{{ admins }}"

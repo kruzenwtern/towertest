@@ -1,0 +1,43 @@
+---
+
+admins:
+  # Savchenko Roman
+  "Savchenko":
+     user_name: "roman"
+     ssh_pub_key: "lanit_template_roman_rsa2048.pub"
+
+  # Smolin Eugeny
+  "Smolin":
+     user_name: "smolin"
+     ssh_pub_key: "lanit_template_smolin_rsa2048.pub"
+
+  # Krylov Alexey
+  "Krylov":
+     user_name: "kruz"
+     ssh_pub_key: "lanit_template_kruz_rsa2048.pub"
+
+  # Dudin Pavel
+  "Dudin":
+     user_name: "mcmanus"
+     ssh_pub_key: "lanit_template_mcmanus_rsa2048.pub"
+
+  # Mamaev Ruslan
+  "Mamaev":
+     user_name: "rmamaev"
+     ssh_pub_key: "lanit_template_rmamaev_rsa2048.pub"
+
+  # Safronov Pavel
+  "Safronov":
+     user_name: "safronov"
+     ssh_pub_key: "lanit_template_safronov_rsa2048.pub"
+
+  # Potvorov Roman
+  "Potvorov":
+     user_name: "rp"
+     ssh_pub_key: "lanit_template_rp_rsa2048.pub"
+
+services:
+  # DevOps service user
+  "devops":
+     user_name: "devops"
+     ssh_pub_key: "lanit_template_devops_rsa2048.pub"
